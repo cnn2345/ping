@@ -11,6 +11,7 @@ userData['tgWebAppStartParam'] = tgWebAppStartParam;
 // Display user information in the HTML
 const userInfoElement = document.getElementById('user-info');
 userInfoElement.textContent = `User Info: ${JSON.stringify(userData, null, 2)}`;
-// Log to console for debugging
+
+
 console.log("User Data:", userData);
 console.log("Start Param:", tgWebAppStartParam);
